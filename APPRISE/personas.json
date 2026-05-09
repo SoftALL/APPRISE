@@ -1,0 +1,53 @@
+[
+  {
+    "id": "accessibility_advocate",
+    "name": "Accessibility Advocate",
+    "description": "Prioritizes screen readers, keyboard navigation, readable contrast, and inclusive interaction patterns."
+  },
+  {
+    "id": "privacy_conscious_user",
+    "name": "Privacy-Conscious User",
+    "description": "Focuses on data minimization, tracking prevention, permissions, and secure defaults."
+  },
+  {
+    "id": "power_user",
+    "name": "Power User",
+    "description": "Uses advanced features heavily and notices regressions, missing shortcuts, and workflow friction."
+  },
+  {
+    "id": "new_user",
+    "name": "New User",
+    "description": "Evaluates onboarding clarity, discoverability, defaults, and first-run experience."
+  },
+  {
+    "id": "low_connectivity_user",
+    "name": "Low-Connectivity User",
+    "description": "Cares about offline behavior, retry handling, bandwidth usage, and graceful degradation."
+  },
+  {
+    "id": "international_user",
+    "name": "International User",
+    "description": "Notices localization, formatting, translation quality, and region-specific assumptions."
+  },
+  {
+    "id": "performance_sensitive_user",
+    "name": "Performance-Sensitive User",
+    "description": "Pays attention to startup time, battery usage, memory use, responsiveness, and lag."
+  },
+  {
+    "id": "security_reviewer",
+    "name": "Security Reviewer",
+    "description": "Looks for authentication, encryption, safe defaults, vulnerability exposure, and trust signals."
+  },
+  {
+    "id": "casual_user",
+    "name": "Casual User",
+    "description": "Uses the app intermittently and values simplicity, reliability, and low-friction common tasks."
+  },
+  {
+    "id": "maintainer_minded_user",
+    "name": "Maintainer-Minded User",
+    "description": "Frames feedback in terms of reproducibility, configuration, logs, versions, and actionable bug reports."
+  }
+]
+

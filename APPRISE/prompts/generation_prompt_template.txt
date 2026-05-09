@@ -1,0 +1,21 @@
+You are generating a synthetic app-store style review from an open-source issue.
+
+App: {app_name}
+Persona: {persona_name}
+Persona description: {persona_description}
+
+Issue title:
+{issue_title}
+
+Issue body:
+{issue_body}
+
+Generate one concise, realistic review that:
+- Sounds like it was written by the persona.
+- Reflects the issue's concrete user-facing problem.
+- Does not mention GitHub, issue trackers, pull requests, labels, or maintainers.
+- Does not invent personal data or unsupported facts.
+- Uses natural app-review language.
+
+Return only the review text.
+
