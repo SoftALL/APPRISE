@@ -2,7 +2,7 @@
 
 ## Motivation
 
-APPRISE supports research on app-review synthesis, issue-to-review alignment, persona-conditioned generation, and contrastive retrieval or ranking. The companion repository intentionally excludes the full dataset payload while preserving documentation, scripts, prompts, personas, and small samples.
+APPRISE supports research on app-review synthesis, issue-to-review alignment, persona-conditioned generation, and contrastive retrieval or ranking. This GitHub repository is intentionally lightweight: it preserves documentation, scripts, prompts, personas, and small samples while excluding the full dataset files.
 
 ## Composition
 
@@ -15,16 +15,26 @@ APPRISE contains:
 - 10 personas
 - 4 apps: Brave Browser, Signal Android, AnkiDroid, K-9 Mail
 
-The expected full dataset files are:
+The full dataset is expected to use these files:
 
 - `issues.jsonl`
 - `reviews.jsonl`
 - `triplets.tsv`
 - `audit.csv`
 
-## Collection and Generation Process
+The GitHub companion repository includes only small samples in `data_sample/`.
 
-Issues are associated with four open-source apps. Synthetic reviews are generated from issue context using persona-conditioned prompts. Contrastive triplets pair issues, positive synthetic reviews, and hard negatives for retrieval and ranking experiments. Audit samples support manual or semi-automated quality checks.
+## Data Sources
+
+The issue records are associated with four open-source applications: Brave Browser, Signal Android, AnkiDroid, and K-9 Mail. Synthetic reviews are generated from issue context with persona-conditioned prompts. Contrastive triplets connect issue records, positive synthetic reviews, and hard-negative examples for retrieval and ranking experiments.
+
+## Generation Process
+
+Synthetic reviews are produced from issue titles, issue bodies, app context, and persona descriptions. The prompt template asks for concise app-store-style review text and instructs the generator not to mention GitHub, issue trackers, pull requests, labels, or maintainers.
+
+## Audit Data
+
+The audit split contains 400 samples for quality inspection. The companion script `scripts/compute_audit_stats.py` can summarize available audit columns such as app, persona, label, verdict, quality, or alignment fields when present.
 
 ## Recommended Uses
 
@@ -32,18 +42,25 @@ Issues are associated with four open-source apps. Synthetic reviews are generate
 - Studying persona-conditioned synthetic app-review generation.
 - Auditing alignment between software issues and generated user-facing reviews.
 - Evaluating hard-negative mining approaches for contrastive learning.
+- Reproducing lightweight validation and sampling workflows.
 
 ## Out-of-Scope Uses
 
-APPRISE should not be used to infer real user sentiment, produce production app-store analytics, or identify individuals. Synthetic reviews should be clearly labeled as synthetic in downstream work.
+APPRISE should not be used to infer real user sentiment, produce production app-store analytics, identify individuals, or represent synthetic reviews as authentic user reviews. Downstream users should clearly label synthetic review text as synthetic.
 
 ## Distribution
 
-The GitHub repository contains lightweight companion materials only. The full APPRISE dataset will be archived separately on Zenodo.
-
+The full APPRISE dataset will be archived on Zenodo.
 Reserved DOI: https://doi.org/10.5281/zenodo.20091031
+
+The GitHub repository must not contain the full dataset files:
+
+- `issues.jsonl`
+- `reviews.jsonl`
+- `triplets.tsv`
+- `audit.csv`
 
 ## Maintenance
 
-Validation scripts in `scripts/` provide schema-oriented checks and sample generation helpers. Dataset users should report inconsistencies through GitHub issues once the repository is published.
+Validation scripts in `scripts/` provide schema-oriented checks, sample generation helpers, hard-negative mining, and audit summaries. Dataset users should report documentation or script issues through GitHub issues once the repository is published.
 

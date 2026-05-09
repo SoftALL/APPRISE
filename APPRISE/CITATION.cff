@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use APPRISE, please cite the archived dataset and this companion repository."
+title: "APPRISE: A Persona-Conditioned App Review Synthesis and Issue Alignment Dataset"
+authors:
+  - family-names: "Hasanov"
+    given-names: "Ogtay"
+doi: "10.5281/zenodo.20091031"
+url: "https://github.com/ogtayhasanov/APPRISE"
+repository-code: "https://github.com/ogtayhasanov/APPRISE"
+date-released: "2026-05-09"
+keywords:
+  - "app reviews"
+  - "software issues"
+  - "synthetic data"
+  - "personas"
+  - "contrastive learning"
+license: "MIT"
+
