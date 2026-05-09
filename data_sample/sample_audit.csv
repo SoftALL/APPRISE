@@ -1,1 +1,21 @@
-
+﻿review_id,issue_id,app,persona,score,rationale
+ankidroid-13620-broken_english,ankidroid-13620,ankidroid,broken_english,3,The review mentions a method error and app update issues but lacks specific details about the `NoSuchMethodError` and the context of Android 6.
+ankidroid-15942-desperate_user,ankidroid-15942,ankidroid,desperate_user,5,Accurately captures the specific issue of theming colors and suggests a solution.
+ankidroid-14209-broken_english,ankidroid-14209,ankidroid,broken_english,5,Accurately captures the specific issue of color inconsistency between the navigation bar and answer bar.
+ankidroid-19358-detailed_complaint,ankidroid-19358,ankidroid,detailed_complaint,4,Captures the core problem of limited media playback but lacks some technical details about the issue.
+ankidroid-12562-confused_user,ankidroid-12562,ankidroid,confused_user,5,Accurately captures the specific issue of backups not being deleted after reducing their number.
+ankidroid-15176-broken_english,ankidroid-15176,ankidroid,broken_english,5,Accurately captures the specific issue of not being able to draw lines on the whiteboard.
+ankidroid-18899-one_liner,ankidroid-18899,ankidroid,one_liner,2,The review mentions crashing but lacks specific details about WorkManager or initialization issues.
+ankidroid-19800-angry_short,ankidroid-19800,ankidroid,angry_short,4,Captures the core problem of the app crashing when deleting a deck but lacks specific technical details about the exception.
+ankidroid-18232-calm_reporter,ankidroid-18232,ankidroid,calm_reporter,5,Accurately captures the specific issue of crashes during the sync process in version 2.20.1.
+ankidroid-18961-calm_reporter,ankidroid-18961,ankidroid,calm_reporter,5,Accurately captures the specific issue of color display on tablets compared to phones.
+ankidroid-18891-angry_short,ankidroid-18891,ankidroid,angry_short,3,The review relates to organizing cards but lacks specificity about the image occlusion issue.
+ankidroid-16083-calm_reporter,ankidroid-16083,ankidroid,calm_reporter,5,Accurately captures the specific issue and key technical details regarding the Image Occlusion note type.
+ankidroid-19632-detailed_complaint,ankidroid-19632,ankidroid,detailed_complaint,4,Captures the core problem of app behavior during screen inactivity but lacks specific technical details about the update flows.
+ankidroid-13468-angry_short,ankidroid-13468,ankidroid,angry_short,2,"The review mentions a problem with long messages but focuses on app crashes during storage migration, lacking specificity about the text overflow issue."
+ankidroid-20127-comparison_user,ankidroid-20127,ankidroid,comparison_user,5,Accurately captures the specific issue of refresh while typing answers and mentions the JavaScript handling problem.
+ankidroid-13465-sarcastic,ankidroid-13465,ankidroid,sarcastic,2,The review vaguely references notification permissions but lacks specific details about the issue.
+ankidroid-16302-confused_user,ankidroid-16302,ankidroid,confused_user,3,The review mentions audio issues but lacks specific details about the initialization problem.
+ankidroid-16035-calm_reporter,ankidroid-16035,ankidroid,calm_reporter,3,The review mentions a problem with creating decks but lacks specific details about AlertDialog or the test rewrite.
+ankidroid-12887-technical_user,ankidroid-12887,ankidroid,technical_user,5,Accurately captures the specific issue of card rendering and compares it to Anki Desktop.
+ankidroid-19934-calm_reporter,ankidroid-19934,ankidroid,calm_reporter,4,Captures the core problem of test reliability but is slightly vague about the specifics of the issue.
