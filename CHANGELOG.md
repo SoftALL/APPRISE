@@ -1,10 +1,29 @@
 # Changelog
 
+All notable changes to APPRISE will be documented in this file.
+
 ## 2026-05-09
 
-- Created the APPRISE lightweight GitHub companion repository.
-- Added documentation for dataset scope, excluded full dataset files, reserved Zenodo DOI, and repository usage.
-- Added persona definitions, prompt template, validation script, hard-negative mining script, and audit statistics script.
-- Added sample-file slots under `data_sample/` while keeping full dataset files out of GitHub.
+### Added
+
+- Created the APPRISE lightweight GitHub companion repository under the SoftALL organization.
+- Added documentation for the dataset scope, repository usage, Zenodo DOI, and GitHub companion workflow.
+- Added persona definitions and the synthetic review generation prompt template.
+- Added validation, hard-negative mining, and audit statistics scripts.
+- Added small sample files under `data_sample/` for demonstration.
 - Added citation metadata in `CITATION.cff`.
-- Documented MIT License metadata, APPRISE maintainers, SoftALL GitHub repository link, and BugRMSys attribution/provenance note.
+- Added MIT License metadata.
+- Added Ogtay Hasanov and Saad Ezzini as APPRISE contacts and maintainers.
+- Added the SoftALL GitHub repository link.
+- Added the SoftALL Hugging Face triplets dataset link.
+- Added BugRMSys attribution and provenance notes.
+
+### Notes
+
+- Full dataset files are intentionally excluded from GitHub.
+- The full APPRISE dataset is archived on Zenodo:
+  https://doi.org/10.5281/zenodo.20091031
+- The companion GitHub repository is:
+  https://github.com/SoftALL/APPRISE
+- The Hugging Face triplets dataset is:
+  https://huggingface.co/datasets/SoftALL/APPRISE-triplets
