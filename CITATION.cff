@@ -4,9 +4,15 @@ title: "APPRISE: A Persona-Conditioned App Review Synthesis and Issue Alignment 
 authors:
   - family-names: "Hasanov"
     given-names: "Ogtay"
+    email: "g202417720@kfupm.edu.sa"
+    affiliation: "King Fahd University of Petroleum and Minerals"
+  - family-names: "Ezzini"
+    given-names: "Saad"
+    email: "saad.ezzini@kfupm.edu.sa"
+    affiliation: "King Fahd University of Petroleum and Minerals"
 doi: "10.5281/zenodo.20091031"
-url: "https://github.com/ogtayhasanov/APPRISE"
-repository-code: "https://github.com/ogtayhasanov/APPRISE"
+url: "https://github.com/SoftALL/APPRISE"
+repository-code: "https://github.com/SoftALL/APPRISE"
 date-released: "2026-05-09"
 keywords:
   - "app reviews"
@@ -15,4 +21,4 @@ keywords:
   - "personas"
   - "contrastive learning"
 license: "MIT"
-
+abstract: "APPRISE is released with MIT License companion-repository metadata and preserves BugRMSys attribution/provenance notes where applicable."

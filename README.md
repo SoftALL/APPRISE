@@ -5,6 +5,8 @@ APPRISE is a lightweight GitHub companion repository for the APPRISE dataset. It
 The full APPRISE dataset will be archived on Zenodo.
 Reserved DOI: https://doi.org/10.5281/zenodo.20091031
 
+Repository: https://github.com/SoftALL/APPRISE
+
 ## Dataset Summary
 
 - 9,435 issues
@@ -77,7 +79,15 @@ https://doi.org/10.5281/zenodo.20091031
 
 See `CITATION.cff` for repository citation metadata.
 
+## Provenance
+
+APPRISE includes attribution and provenance notes for BugRMSys-derived research context where applicable. Please preserve those notes in downstream reuse.
+
 ## License
 
 This companion repository is released under the MIT License. Dataset-specific terms should be checked in the final Zenodo archive record when it is published.
 
+## Contact
+
+- Ogtay Hasanov, King Fahd University of Petroleum and Minerals, g202417720@kfupm.edu.sa
+- Saad Ezzini, King Fahd University of Petroleum and Minerals, saad.ezzini@kfupm.edu.sa

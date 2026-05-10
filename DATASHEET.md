@@ -53,6 +53,8 @@ APPRISE should not be used to infer real user sentiment, produce production app-
 The full APPRISE dataset will be archived on Zenodo.
 Reserved DOI: https://doi.org/10.5281/zenodo.20091031
 
+GitHub repository: https://github.com/SoftALL/APPRISE
+
 The GitHub repository must not contain the full dataset files:
 
 - `issues.jsonl`
@@ -62,5 +64,17 @@ The GitHub repository must not contain the full dataset files:
 
 ## Maintenance
 
-Validation scripts in `scripts/` provide schema-oriented checks, sample generation helpers, hard-negative mining, and audit summaries. Dataset users should report documentation or script issues through GitHub issues once the repository is published.
+Ogtay Hasanov and Saad Ezzini are the maintainers of APPRISE. Validation scripts in `scripts/` provide schema-oriented checks, sample generation helpers, hard-negative mining, and audit summaries. Dataset users should report documentation or script issues through GitHub issues once the repository is published.
 
+## Contact
+
+- g202417720@kfupm.edu.sa
+- saad.ezzini@kfupm.edu.sa
+
+## License
+
+The APPRISE companion repository is released under the MIT License. Dataset-specific terms should be checked in the final Zenodo archive record when it is published.
+
+## Provenance
+
+APPRISE includes attribution and provenance notes for BugRMSys-derived research context where applicable. Please preserve those notes in downstream reuse.

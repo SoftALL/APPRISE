@@ -7,4 +7,4 @@
 - Added persona definitions, prompt template, validation script, hard-negative mining script, and audit statistics script.
 - Added sample-file slots under `data_sample/` while keeping full dataset files out of GitHub.
 - Added citation metadata in `CITATION.cff`.
-
+- Documented MIT License metadata, APPRISE maintainers, SoftALL GitHub repository link, and BugRMSys attribution/provenance note.
