@@ -220,6 +220,7 @@ reviews.jsonl
 triplets.tsv
 audit.csv
 *.zip
+hf_apprise_triplets/
 
 # Streamlit
 .streamlit/secrets.toml
