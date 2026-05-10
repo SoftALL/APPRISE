@@ -1,6 +1,14 @@
 cff-version: 1.2.0
 message: "If you use APPRISE, please cite the archived dataset and this companion repository."
-title: "APPRISE: A Persona-Conditioned App Review Synthesis and Issue Alignment Dataset"
+title: "APPRISE: A Persona-Conditioned Dataset of Synthetic App Reviews Paired with GitHub Issues"
+version: "1.0.0"
+type: dataset
+doi: "10.5281/zenodo.20091031"
+url: "https://doi.org/10.5281/zenodo.20091031"
+repository-code: "https://github.com/SoftALL/APPRISE"
+date-released: "2026-05-11"
+license: "MIT"
+
 authors:
   - family-names: "Hasanov"
     given-names: "Ogtay"
@@ -10,15 +18,60 @@ authors:
     given-names: "Saad"
     email: "saad.ezzini@kfupm.edu.sa"
     affiliation: "King Fahd University of Petroleum and Minerals"
-doi: "10.5281/zenodo.20091031"
-url: "https://github.com/SoftALL/APPRISE"
-repository-code: "https://github.com/SoftALL/APPRISE"
-date-released: "2026-05-09"
+
 keywords:
   - "app reviews"
-  - "software issues"
+  - "GitHub issues"
+  - "software traceability"
   - "synthetic data"
-  - "personas"
+  - "persona-conditioned generation"
   - "contrastive learning"
-license: "MIT"
-abstract: "APPRISE is released with MIT License companion-repository metadata and preserves BugRMSys attribution/provenance notes where applicable."
+  - "hard negatives"
+  - "information retrieval"
+  - "software engineering"
+
+abstract: >-
+  APPRISE is a persona-conditioned dataset of 13,579 synthetic app reviews
+  paired with 9,435 real GitHub issues from four open-source Android
+  applications. It includes 73,984 hard-negative contrastive triplets,
+  issue metadata, persona definitions, generation prompts, and a 400-sample
+  quality audit.
+
+preferred-citation:
+  type: conference-paper
+  title: "APPRISE: A Persona-Conditioned Dataset of Synthetic App Reviews Paired with GitHub Issues"
+  authors:
+    - family-names: "Hasanov"
+      given-names: "Ogtay"
+    - family-names: "Ezzini"
+      given-names: "Saad"
+  year: 2026
+  collection-title: "Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering"
+  conference:
+    name: "The 41st IEEE/ACM International Conference on Automated Software Engineering"
+    acronym: "ASE 2026"
+    location: "Munich, Germany"
+
+references:
+  - type: data
+    title: "App Review Driven Collaborative Bug Finding (BugRMSys)"
+    authors:
+      - family-names: "Tang"
+        given-names: "Xunzhu"
+      - family-names: "Tian"
+        given-names: "Haoye"
+      - family-names: "Kong"
+        given-names: "Pingfan"
+      - family-names: "Ezzini"
+        given-names: "Saad"
+      - family-names: "Le"
+        given-names: "Wei"
+      - family-names: "Klein"
+        given-names: "Jacques"
+      - family-names: "Bissyandé"
+        given-names: "Tegawendé F."
+      - family-names: "Le Traon"
+        given-names: "Yves"
+    year: 2024
+    doi: "10.5281/zenodo.7520604"
+    notes: "Source of Brave Browser issue metadata used in APPRISE."
